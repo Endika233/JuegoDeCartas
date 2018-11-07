@@ -1,0 +1,20 @@
+﻿* {
+    font-family: 'Poor Story', cursive;
+}
+#mostrarcartas li img{
+    transition:transform 0.2s;/*esto es para sumar tiempo a la rotacion*/
+}
+#mostrarcartas li img:hover{/*hover es para cuando pones el raton encima*/
+    transform:rotate(20deg);
+}
+img {
+    width: 200px;
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    /*TODO poner border y asi*/
+}
+body
+{
+}
+/*5- Usar :hover sobre la imagen para que cambie la rotación de la carta al pasar el ratón encima (buscar transform rotation en w3schools).
+6- Usar la propiedad transition para que el giro de la carta no sea instantánea sino animada (buscar en w3schools y lo tenéis también en las diapositivas de JavaScript y DOM).*/
